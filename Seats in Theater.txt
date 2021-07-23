@@ -1,0 +1,5 @@
+fun seatsInTheater(nCols: Int, nRows: Int, col: Int, row: Int): Int {
+    var nColNum = nCols - col + 1
+    var nRowNum = nRows - row
+    return nColNum * nRowNum
+}
